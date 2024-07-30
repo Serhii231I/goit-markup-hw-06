@@ -1054,7 +1054,8 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: block;
+  display: flex;
+  align-items: center;
   margin-bottom: 4px;
 }
 
@@ -1069,7 +1070,6 @@ button {
 
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -1106,6 +1106,10 @@ button {
 
   .form-input {
     width: 360px;
+  }
+
+  .modal-label {
+    display: block;
   }
 }
 
